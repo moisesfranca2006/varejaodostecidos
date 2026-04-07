@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    background-color: rgb(213, 216, 179);
+    padding: 10px 0;
+    width: 940px;
+}
+
+.logo {
+    padding-left: 20px;
+}
+.caixa {
+    width: 940px;
+    position: static;
+    margin: auto;
+    /* border: 1px black solid; */
+}
+
+.hmenu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.hmenu ul li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+/*
+.hmenu ul li:last-child a {
+    color: black;
+}
+*/
+
+.hmenu ul li a {
+    color: #024b4b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+/*
+.hmenu ul li:last-child a:hover {
+    color: blue;
+    border-top: 1px solid rgb(224, 134, 30);
+}
+*/
+
+.hmenu ul li a:hover {
+    color: rgb(224, 134, 30);
+    border-bottom: 1px solid rgb(224, 134, 30);
+}
+
+
+main {
+    width: 940px;
+}
+
+
+section {
+    padding: 10px 0;
+}
+
+section h3 {
+    margin: 0 0 10px 0;
+}
+
+section p {
+    padding: 5px 0 5px 0;
+    text-align: justify;
+}
